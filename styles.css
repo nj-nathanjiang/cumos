@@ -1,0 +1,36 @@
+html {
+	margin: 0px;
+	min-height: 100%;
+}
+
+body {
+	margin: 0px;	
+	min-height: 100%;
+	background-color: #d8e8ff;
+
+	@media (prefers-color-scheme: dark) {
+		background-color: #060d1d;
+	}
+}
+
+h1 {
+	@media (prefers-color-scheme: light) {
+		color: #060d1d;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		color: #d8e8ff;
+	}
+}
+
+.title-page {
+	height: 100vh;
+}
+
+.cumos-logo {
+	margin: 0;
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
